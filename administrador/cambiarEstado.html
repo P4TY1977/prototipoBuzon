@@ -97,11 +97,13 @@
                                         <select class="form-select form-control" required id="estado">
                                             <option></option>
                                             <option>REGISTRADA</option>
+                                            <option>INICIADA</option>
+                                            <option>RATIFICADA</option>
                                             <option>EN PROCESO</option>
-                                            <option>EN FIRMA</option>
-                                            <option>CONCLUIDA</option>
                                             <option>CANCELADA</option>
-                                            <option>RECONSIDERACIÓN</option>
+                                            <option>DICTAMINADA</option>
+                                            <option>EN RECONSIDERACIÓN</option>
+                                            <option>CONCLUIDA</option>                                            
                                         </select>
                                 </div>
                                 <div class="col-md-5"> 
@@ -110,8 +112,8 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-
-                                        <button type="submit" class="btn btn-primary btn-sm btn-block">Asignar estado <i
+                                        <label for="comentario" class="form-label fst-italic">Se enviará un correo al usuario para notificarle el estado de su solicitud</label><br/>
+                                        <button type="submit" class="btn btn-primary btn-sm btn-block" id="enviar">Asignar estado <i
                                                 class="fa fa-paper-plane"></i></button>
                                     </div>
 
